@@ -1,21 +1,20 @@
-#ifndef MAIN_H
-
-#define MAIN_H
-
-int _putchar(char c);
-
-/* Add other function prototypes here */
-
-#endif /* MAIN_H */
-
 #include "main.h"
 
-#include <stdio.h>
-
-int main(void) 
+/**
+ * main - this is a function
+ * Return:Returns 0
+ */
+int main(void)
 {
-    printf("_putchar\n");
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
-    return (0);
+return (0);
 }
-
