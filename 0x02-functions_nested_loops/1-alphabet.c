@@ -1,13 +1,14 @@
 #include "main.h"
+/**
+ * print_alphabet-this is the function of the task
+ * return:return 0
+ */
 void print_alphabet(void)
 {
-char letter = 'a';
-
-while (letter <= 'z')
-
+char c;
+for (c = 'a'; c <= 'z'; c++)
 {
-_putchar(letter);
-letter++;
+_putchar(c);
 }
 _putchar('\n');
 }
